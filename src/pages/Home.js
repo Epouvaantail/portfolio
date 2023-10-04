@@ -8,10 +8,21 @@ function Home() {
 
   function lightDark() {
     var body = document.body
+    var prt = document.querySelector(".presentation")
+    var ctc = document.querySelector(".contact")
+    var prj = document.querySelector(".projects")
+    var lgt = document.querySelector(".languagesTools")
+    var crt = document.querySelector(".copyright")
     var li = document.querySelectorAll("li")
-    var btn = document.querySelectorAll('.btn')
+    var btn = document.querySelectorAll(".btn")
 
     body.classList.toggle("light-mode")
+    prt.classList.toggle("presentation-light")
+    ctc.classList.toggle("contact-light")
+    prj.classList.toggle("projects-light")
+    lgt.classList.toggle("languagesTools-light")
+    crt.classList.toggle("copyright-light")
+
     
     for(var a=0; a < li.length; a++) {
       li[a].classList.toggle("li-light")
@@ -81,6 +92,7 @@ return (
 						<li>NodeJS</li>
 						<li>NextJS</li>
 						<li>Tailwind</li>
+            <li>PHP</li>
 					</ul>
             </article>
             <article>

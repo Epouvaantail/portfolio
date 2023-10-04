@@ -65,6 +65,20 @@ p {
   }
 }
 
+.presentation-light {
+  background-color: rgba(27, 26, 26, 0.496);
+  border-radius: 10px; border: 1px solid rgb(42, 41, 41);
+  grid-area: 1 / 1 / 3 / 4;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 15%;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid whitesmoke;
+  }
+}
+
 .firstPart {
   display: flex;
   flex-direction: column;
@@ -97,6 +111,16 @@ p {
   transition: 0.5s;
   &:hover {
     border: 1px solid darkred;
+  }
+}
+
+.languagesTools-light {
+  background-color: rgba(27, 26, 26, 0.496);
+  border-radius: 10px; border: 1px solid rgb(42, 41, 41);
+  grid-area: 1 / 4 / 5 / 5;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid whitesmoke;
   }
 }
 
@@ -138,6 +162,17 @@ li:hover {
   }
 }
 
+.contact-light {
+  background-color: rgba(27, 26, 26, 0.496);
+  border-radius: 10px; border: 1px solid rgb(42, 41, 41);
+  grid-area: 3 / 1 / 5 / 2;
+  transition: 0.5s;
+  font-size: 13px;
+  &:hover {
+    border: 1px solid whitesmoke;
+  }
+}
+
 .contact p {
   margin-top: 10px;
   margin-left: 10px;
@@ -174,6 +209,19 @@ li:hover {
   transition: 0.5s;
   &:hover {
     border: 1px solid darkred;
+  }
+}
+
+.projects-light {
+  background-color: rgba(27, 26, 26, 0.496);
+  border-radius: 10px; border: 1px solid rgb(42, 41, 41);
+  grid-area: 3 / 2 / 5 / 4;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid whitesmoke;
   }
 }
 
@@ -235,6 +283,20 @@ hr {
   transition: 0.5s;
   &:hover {
     border: 1px solid darkred;
+  }
+}
+
+.copyright-light {
+  background-color: rgba(27, 26, 26, 0.496);
+  border-radius: 10px; border: 1px solid rgb(42, 41, 41);
+  grid-area: 5 / 1 / 6 / 5;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid whitesmoke;
   }
 }
 
