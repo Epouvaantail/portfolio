@@ -1,0 +1,165 @@
+import '../App.css';
+import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import Clock from '../components/clock/clock';
+import Button from '../components/button/button';
+
+function Home() {
+
+  function lightDark() {
+    var body = document.body
+    var li = document.querySelectorAll("li")
+    var btn = document.querySelectorAll('.btn')
+
+    body.classList.toggle("light-mode")
+    
+    for(var a=0; a < li.length; a++) {
+      li[a].classList.toggle("li-light")
+    }
+
+    for(var i=0; i < btn.length; i++) {
+      btn[i].classList.toggle("light-btn")
+    }
+
+  }
+
+return (
+    <div className="App">
+      <section className="container">
+        <div className="presentation">
+          <div className="firstPart">
+            <div className="text">
+              <p onClick={lightDark}>Welcome</p>
+              <h1>Kilian Coutouzis</h1>
+              <h2>Developper Web - FrontEnd</h2>
+              <p>FullStack in progress...</p>
+            </div>
+            <div className="button">
+              <Link to='https://github.com/epouvaantail'>
+                <Button 
+                  props={{
+                    src: require("../img/logo/github-mark-white.webp"),
+                    title: "My GitHub",
+                  }}
+                />
+              </Link>
+              <Link to='https://LinkedIn.com/me'>
+                <Button 
+                  props={{
+                    src: require("../img/logo/LinkedIn.webp"),
+                    title: "LinkedIn",
+                  }}
+                />
+              </Link>
+              <Link to='mailto:coutouzis.kilian@gmail.com'>
+                <Button 
+                  props={{
+                    src: require("../img/logo/email.webp"),
+                    title: "Email",
+                  }}
+                />
+              </Link>
+            </div>
+          </div>
+          <div className="secondPart">
+            <Clock />
+          </div>
+        </div>
+        <div className="languagesTools">
+            <h3>Languages and Tools</h3>
+            <article>
+                <p>Languages and Frameworks</p>
+                <ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Sass</li>
+						<li>JavaScript</li>
+						<li>TypeCsript</li>
+						<li>React</li>
+						<li>ReactRouter</li>
+						<li>Redux</li>
+						<li>NodeJS</li>
+						<li>NextJS</li>
+						<li>Tailwind</li>
+					</ul>
+            </article>
+            <article>
+                <p>Tools</p>
+                <ul>
+					<li>Git</li>
+					<li>Github</li>
+					<li>MongoDB</li>
+					<li>Swagger</li>
+					<li>Notion</li>
+					<li>Figma</li>
+					<li>Firebase</li>
+					<li>Vercel</li>
+					<li>npm/pnpm</li>
+					<li>Schema.org</li>
+					<li>Wave</li>
+					<li>GIMP</li>
+					</ul>
+            </article>
+        </div>
+        <div className="contact">
+          <p>Contact</p>
+          <h4>coutouzis.kilian@gmail.com</h4>
+          <p>Socials</p>
+          <ul>
+            <li>
+              <a href="https://LinkedIn.com/me">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/epouvaantail">GitHub</a>
+              </li>
+          </ul>
+          <p>Education</p>
+          <ul>
+            <li>
+              <h4>Formation - Intégrator Web</h4>
+              <p>OpenClassrooms</p>
+            </li>
+            <li>
+              <h4>Bac general</h4>
+              <p>Mathematics / Computer Science</p>
+            </li>
+          </ul>
+        </div>
+        <NavLink to='/Projects'>
+        <div className="projects">
+            <section className='topPart'>
+                <div className='topLeft'>
+                  <h2>Projects</h2>
+                  <h3>Here the lasts projects I work on</h3>
+                  <p>Click to see them !</p>
+                </div>
+                <div className='topRight'>
+                  <img src={require('../img/logo/arrow.webp')} alt='logo arrow' id='arrow'/>
+                </div>
+            </section>
+            <hr/>
+            <section className='bottomPart'>
+              <div className='frontend'>
+                <h4>FrontEnd</h4>
+                <p>Website and web application development</p>
+              </div>
+              <div className='debug'>
+                  <h4>Debug</h4>
+                  <p>Search engine optimization, improvement</p>
+              </div>
+              <div className='seo'>
+                  <h4>SEO</h4>
+                  <p>Finding and resolving bugs in websites and web applications</p>
+              </div>
+            </section>
+        </div>
+        </NavLink>
+        <div className="copyright">
+          <h3>© 2023 Kilian COUTOUZIS, All Right Reserved.</h3>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Home;

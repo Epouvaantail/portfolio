@@ -1,0 +1,83 @@
+[
+    {
+        "id": "ridingcities",
+        "title": "Riding Cities",
+        "imageUrl": "Riding-cities.webp",
+        "description": "Actualiser la page Internet de Riding Cities: Création d'une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modification de la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+        "code": "https://github.com/Epouvaantail/Projet_2",
+        "site": "https://epouvaantail.github.io/Projet_2",
+        "languages": "HTML5 CSS3"
+    },
+    {
+        "id": "booki",
+        "title": "Booki",
+        "imageUrl": "Booki.webp",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Intégrer l'interface du site avec du code HTML et CSS. Collaboration avec la CTO et l’UI designer.",
+        "code": "https://github.com/Epouvaantail/Projet_3",
+        "site": "https://epouvaantail.github.io/Projet_3",
+        "languages": "HTML5 CSS3 Responsive"
+    },
+    {
+        "id": "ohmyfood",
+        "title": "OhMyFood",
+        "imageUrl": "Ohmyfood.webp",
+        "description": "La mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+        "code": "https://github.com/Epouvaantail/Projet_4",
+        "site": "https://epouvaantail.github.io/Projet_4",
+        "languages": "HTML5 CSS3 Sass Responsive Animations"
+    },
+    {
+        "id": "printit",
+        "title": "Print It",
+        "imageUrl": "Printit.webp",
+        "description": "Amélioration d'un site statique (HTML CSS) d'une imprimerie en y ajoutant un carousel à défilement automatique et manuel.",
+        "code": "https://github.com/Epouvaantail/Projet_5",
+        "site": "https://epouvaantail.github.io/Projet_5",
+        "languages":"HTML5 CSS3 JavaScript"
+    },
+    {
+        "id": "sophiebluel",
+        "title": "Portfolio Sophie Bluel",
+        "imageUrl": "SophieBluel.webp",
+        "description": "Création de la page de présentation des travaux de l'architecte (à partir du HTML fourni),  la page de connexion de l'administrateur du site (le client) (code à créer de zéro);  et création de la modale permettant d'uploader de nouveaux médias (code à créer from scratch). ",
+        "code": "https://github.com/Epouvaantail/Projet_6",
+        "site": "",
+        "languages": "HTML5 CSS3 JavaScript NodeJS"
+    },
+    {
+        "id": "kasa",
+        "title": "Kasa",
+        "imageUrl": "Kasa.webp",
+        "description": "Développement d'une application de location immobilière en React, et composants React, les routes React Router, en suivant les maquettes Figma (responsives).",
+        "code": "https://github.com/Epouvaantail/Projet_8",
+        "site": "",
+        "languages": "HTML5 CSS3 JavaScript JSON REACT JSX ReactRouter"
+    },
+    {
+        "id": "ninacarducci",
+        "title": "Portfolio Nina Carducci",
+        "imageUrl": "Nina-Carducci.webp",
+        "description": "Optimisation globale du site tant sur les performances que sur le SEO.  Référencement local en utilisant Schema.org Metas pour les réseaux sociaux Accessibilité du site Référencement local Rapport d’optimisation détaillé",
+        "code": "https://github.com/Epouvaantail/Projet_9",
+        "site": "https://epouvaantail.github.io/Projet_9",
+        "languages": "HTML5 CSS3 JavaScript SEO Wave Schema.org Responsive Lighthouse"
+    },
+    {
+        "id": "events",
+        "title": "724 Events",
+        "imageUrl": "724-events.webp",
+        "description": "Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. Recherche et correction des bugs qui impacts l'experience utilisateur, tant sur le visuel que sur le fonctionnel. Qui peuvent également impacter le référencement du sites web de l'entreprise.",
+        "code": "https://github.com/Epouvaantail/Projet_10",
+        "site": "",
+        "languages": "HTML5 CSS3 JavaScript Wave"
+    },
+    {
+        "id": "argentbank",
+        "title": "ArgentBank",
+        "imageUrl": "Argent-bank.webp",
+        "description": "Créer l’application web complète et responsive avec React et utiliser Redux pour gérer le state de l'ensemble de l'application. Fonctionnalités: - L'utilisateur peut visiter la page d'accueil. - Il peut se connecter au système. - Il peut se déconnecter du système. - Il ne peut voir les informations relatives à son propre profil uniquement s'être connecté avec succès. - Il ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.",
+        "code": "https://github.com/Epouvaantail/Projet_11",
+        "site": "",
+        "languages": "HTML5 CSS3 JavaScript NodeJS REACT JSX ReactRouter Redux MongoDB DevTools"
+    }
+]

@@ -1,0 +1,126 @@
+.arrow {
+  filter: invert(100%);
+  position: absolute;
+  z-index: 11;
+  transform: rotate(180deg);
+  height: 40px; width: 40px;
+  padding: 5px;
+  top: 15px;
+  left: 15px;
+}
+
+#projects {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  border-radius: 20px; border: 1px solid black;
+  background-color: rgba(27, 27, 26, 0.496);
+  width: 80%;
+	gap: 10px;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid darkred;
+  }
+}
+
+.topSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 90%;
+  border-color: rgba(0, 0, 0, 0.54);
+}
+
+.bottomSection {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btnRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.project img {
+	height: 120px;
+  aspect-ratio: 3/1;
+  filter: contrast(0.8);
+	border-radius: 5px;
+  margin: 30px 30px auto;
+}
+
+.project button img {
+	height: 20px;
+  width: 20px;
+	filter: none;
+	border-radius: 0;
+  margin-top: 0;
+  margin-bottom: 2px;
+} 
+
+button {
+	background: none;
+	padding: 8px 24px;
+	border-radius: 3px 20px 3px 3px;
+	font-family: 'Rationale', sans-serif;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	position: relative;
+	margin-left: 20px;
+	border: 2px solid black;
+}
+
+.github-code a {
+	color: black;
+}
+
+.site a {
+	color: black;
+}
+
+.github-code img{
+	height: 25px; width: auto;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: gray; 
+	border-radius: 10px;
+}
+
+@media screen and (max-width:500px) {
+
+  .topSection {
+    flex-direction: column-reverse;
+    width: 80%;
+    gap: 10px;
+  }
+
+  .topSection img {
+    height: 80px;
+  }
+  
+}

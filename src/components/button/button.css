@@ -1,0 +1,56 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+	width: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+	cursor: pointer;
+    box-shadow: 
+	  3px 3px 0px 1px darkred;
+	  border: 1px solid darkred; border-radius: 2px;
+	&:hover,
+	&:focus {
+	  box-shadow: 
+		0 0 0 0 #00000036,
+		inset 6em 3.5em 0 0 #00000053;
+	}
+    transition: 1.15s;
+	&:hover,
+	&:focus { 
+	  border-color: rgb(0, 0, 0);
+	}
+}
+
+.light-btn {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+	width: 20px;
+    color: black;
+    background-color: transparent;
+	cursor: pointer;
+    box-shadow: 
+	  3px 3px 0px 1px white;
+	  border: 1px solid white; border-radius: 2px;
+	&:hover,
+	&:focus {
+	  box-shadow: 
+		0 0 0 0 #00000036,
+		inset 6em 3.5em 0 0 #00000053;
+	}
+    transition: 1.15s;
+	&:hover,
+	&:focus { 
+	  border-color: rgb(0, 0, 0);
+	}
+}
+
+.btn img {
+    height: 20px;
+    margin-right: 5px;
+}
