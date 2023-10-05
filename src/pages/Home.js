@@ -91,7 +91,6 @@ return (
 						<li>Redux</li>
 						<li>NodeJS</li>
 						<li>NextJS</li>
-						<li>Tailwind</li>
             <li>PHP</li>
 					</ul>
             </article>
@@ -132,7 +131,7 @@ return (
               <p>OpenClassrooms</p>
             </li>
             <li>
-              <h4>Bac general</h4>
+              <h4>Baccalauréat général</h4>
               <p>Mathematics / Computer Science</p>
             </li>
           </ul>
