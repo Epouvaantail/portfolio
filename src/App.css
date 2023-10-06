@@ -16,7 +16,8 @@ body, #root {
 
 body {
   background-color: rgb(23, 22, 24);
-  color: whitesmoke
+  color: whitesmoke;
+  margin-top: 1%;
 }
 
 .light-mode {
