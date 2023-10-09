@@ -6,15 +6,15 @@ import Button from '../../components/button/button'
 import { Link } from 'react-router-dom';
 
 function Projects() {
-	async function siteNone() {
-		for (let d in data) {
-			if (await data[d].site === null) {
-				const datad = data[d].id
-				const siteNone = document.querySelector('#' + datad + ' ' + '.site' )
-				siteNone.style.display = 'none'
-			}
-		}
-	}
+	// async function siteNone() {
+	// 	for (let d in data) {
+	// 		if (await data[d].site === null) {
+	// 			const datad = data[d].id
+	// 			const siteNone = document.querySelector('#' + datad + ' ' + '.site' )
+	// 			siteNone.style.display = 'none'
+	// 		}
+	// 	}
+	// }
 	return (
 	    <div className="App">
 			<Clock />
@@ -23,7 +23,7 @@ function Projects() {
 			</NavLink>
 			<section id='projects'>
 			{data.map((p) => {
-				siteNone()
+				// siteNone()
 				return (
 					<article key={p.id} className="project" id={p.id}>
 						<div className='topSection'>
@@ -47,7 +47,7 @@ function Projects() {
 										props={{
 											src: require("../../img/logo/web.webp"),
 											title: "Site",
-											class: "site",
+											// class: "site",
 										  }}
 									/>
 								</Link>
