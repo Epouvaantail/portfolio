@@ -12,7 +12,6 @@ function Projects() {
 				const datad = data[d].id
 				const siteNone = document.querySelector('#' + datad + ' ' + '.site' )
 				siteNone.style.display = 'none'
-				console.log(datad)
 			}
 		}
 	}
@@ -40,7 +39,6 @@ function Projects() {
 										props={{
 											src: require("../../img/logo/code.webp"),
 											title: "Code",
-											class: "btn",
 										  }}
 									/>
 								</Link>
@@ -49,7 +47,6 @@ function Projects() {
 										props={{
 											src: require("../../img/logo/web.webp"),
 											title: "Site",
-											class: "btn site",
 										  }}
 									/>
 								</Link>
