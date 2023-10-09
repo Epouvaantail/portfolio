@@ -31,9 +31,9 @@ function Home() {
     for(var i=0; i < btn.length; i++) {
       btn[i].classList.toggle("light-btn")
     }
-
   }
-
+  // console.log(1);
+  // console.clear();
 return (
     <div className="App">
       <div className="loader">
@@ -55,6 +55,7 @@ return (
                   props={{
                     src: require("../img/logo/github-mark-white.webp"),
                     title: "My GitHub",
+                    class: "btn",
                   }}
                 />
               </Link>
@@ -63,6 +64,7 @@ return (
                   props={{
                     src: require("../img/logo/LinkedIn.webp"),
                     title: "LinkedIn",
+                    class: "btn",
                   }}
                 />
               </Link>
@@ -71,6 +73,7 @@ return (
                   props={{
                     src: require("../img/logo/email.webp"),
                     title: "Email",
+                    class: "btn",
                   }}
                 />
               </Link>
