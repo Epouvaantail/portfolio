@@ -36,6 +36,10 @@ function Home() {
 
 return (
     <div className="App">
+      <div className="loader">
+		    <p id="c1">C</p>
+		    <p id="k1">K</p>
+	    </div>
       <section className="container">
         <div className="presentation">
           <div className="firstPart">
