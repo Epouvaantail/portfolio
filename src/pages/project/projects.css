@@ -75,11 +75,8 @@ hr {
 button {
 	background: none;
 	padding: 8px 24px;
-	border-radius: 3px 20px 3px 3px;
 	font-family: 'Rationale', sans-serif;
 	cursor: pointer;
-	font-size: 18px;
-	font-weight: 600;
 	position: relative;
 	margin-left: 20px;
 	border: 2px solid black;

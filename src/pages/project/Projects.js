@@ -47,6 +47,7 @@ function Projects() {
 										props={{
 											src: require("../../img/logo/web.webp"),
 											title: "Site",
+											class: "site",
 										  }}
 									/>
 								</Link>
