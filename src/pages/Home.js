@@ -77,39 +77,39 @@ return (
           </div>
         </div>
         <div className="languagesTools">
-            <h3>Languages and Tools</h3>
+          <h3>Languages and Tools</h3>
             <article>
-                <p>Languages and Frameworks</p>
-                <ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Sass</li>
-						<li>JavaScript</li>
-						<li>TypeCsript</li>
-						<li>React</li>
-						<li>ReactRouter</li>
-						<li>Redux</li>
-						<li>NodeJS</li>
-						<li>NextJS</li>
-            <li>PHP</li>
-					</ul>
+              <p>Languages and Frameworks</p>
+              <ul>
+					      <li>HTML5</li>
+						    <li>CSS3</li>
+						    <li>Sass</li>
+						    <li>JavaScript</li>
+						    <li>TypeCsript</li>
+						    <li>React</li>
+						    <li>ReactRouter</li>
+						    <li>Redux</li>
+						    <li>NodeJS</li>
+						    <li>NextJS</li>
+                <li>PHP</li>
+					    </ul>
             </article>
             <article>
-                <p>Tools</p>
-                <ul>
-					<li>Git</li>
-					<li>Github</li>
-					<li>MongoDB</li>
-					<li>Swagger</li>
-					<li>Notion</li>
-					<li>Figma</li>
-					<li>Firebase</li>
-					<li>Vercel</li>
-					<li>npm/pnpm</li>
-					<li>Schema.org</li>
-					<li>Wave</li>
-					<li>GIMP</li>
-					</ul>
+              <p>Tools</p>
+              <ul>
+					      <li>Git</li>
+					      <li>Github</li>
+					      <li>MongoDB</li>
+					      <li>Swagger</li>
+					      <li>Notion</li>
+					      <li>Figma</li>
+					      <li>Firebase</li>
+					      <li>Vercel</li>
+					      <li>npm/pnpm</li>
+					      <li>Schema.org</li>
+					      <li>Wave</li>
+					      <li>GIMP</li>
+					    </ul>
             </article>
         </div>
         <div className="contact">
