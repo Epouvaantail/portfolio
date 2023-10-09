@@ -2,7 +2,7 @@ import "./button.css"
 
 const Button = ({ props }) => {
   return (
-    <button type="button" className="btn">
+    <button type="button" className={"btn" + " " + props.class}>
       <img src= {props.src} alt={props.title} />
     </button>
   );
