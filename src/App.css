@@ -30,8 +30,6 @@ body {
   display:flex;
   justify-content:center;
   gap:80%;
-  font-size:0px;
-  font-weight: 500;
   height: 100%;
   width: 100%;
   top: 0;
@@ -51,6 +49,8 @@ body {
 #k1 {
   font-family: 'Segoe UI', sans-serif;
   color: whitesmoke;
+  font-size:0px;
+  font-weight: 500;
   position:relative;
   animation-name: k;
   animation-duration: 4s;
@@ -60,6 +60,8 @@ body {
 #c1 {
   font-family: 'Segoe UI', sans-serif;
   color: whitesmoke;
+  font-size:0px;
+  font-weight: 500;
   position:relative;
   animation-name: c;
   animation-duration: 4s;
