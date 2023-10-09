@@ -41,7 +41,7 @@
         "imageUrl": "SophieBluel.webp",
         "description": "Création de la page de présentation des travaux de l'architecte (à partir du HTML fourni),  la page de connexion de l'administrateur du site (le client) (code à créer de zéro);  et création de la modale permettant d'uploader de nouveaux médias (code à créer from scratch). ",
         "code": "https://github.com/Epouvaantail/Projet_6",
-        "site": "",
+        "site": null,
         "languages": "HTML5 CSS3 JavaScript NodeJS"
     },
     {
@@ -50,7 +50,7 @@
         "imageUrl": "Kasa.webp",
         "description": "Développement d'une application de location immobilière en React, et composants React, les routes React Router, en suivant les maquettes Figma (responsives).",
         "code": "https://github.com/Epouvaantail/Projet_8",
-        "site": "",
+        "site": null,
         "languages": "HTML5 CSS3 JavaScript JSON REACT JSX ReactRouter"
     },
     {
@@ -68,7 +68,7 @@
         "imageUrl": "724-events.webp",
         "description": "Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. Recherche et correction des bugs qui impacts l'experience utilisateur, tant sur le visuel que sur le fonctionnel. Qui peuvent également impacter le référencement du sites web de l'entreprise.",
         "code": "https://github.com/Epouvaantail/Projet_10",
-        "site": "",
+        "site": null,
         "languages": "HTML5 CSS3 JavaScript Wave"
     },
     {
@@ -77,7 +77,7 @@
         "imageUrl": "Argent-bank.webp",
         "description": "Créer l’application web complète et responsive avec React et utiliser Redux pour gérer le state de l'ensemble de l'application. Fonctionnalités: - L'utilisateur peut visiter la page d'accueil. - Il peut se connecter au système. - Il peut se déconnecter du système. - Il ne peut voir les informations relatives à son propre profil uniquement s'être connecté avec succès. - Il ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.",
         "code": "https://github.com/Epouvaantail/Projet_11",
-        "site": "",
+        "site": null,
         "languages": "HTML5 CSS3 JavaScript NodeJS REACT JSX ReactRouter Redux MongoDB DevTools"
     }
 ]
