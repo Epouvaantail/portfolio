@@ -9,7 +9,7 @@ function Projects() {
 	async function siteNone() {
 		for (let d in data) {
 			if (await data[d].site === null) {
-				const siteNone = document.querySelector('#' + data[d].id + ' ' + '.site')
+				const siteNone = document.querySelector(`#${data[d].id} .site`)
 				siteNone.style.display = 'none'
 			}
 		}
