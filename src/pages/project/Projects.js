@@ -6,6 +6,7 @@ import Button from '../../components/button/button'
 import { Link } from 'react-router-dom';
 
 function Projects() {
+	console.clear()
 	async function siteNone() {
 		for (let d in data) {
 			if (await data[d].site === null) {

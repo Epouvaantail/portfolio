@@ -5,7 +5,8 @@ import Clock from '../components/clock/clock';
 import Button from '../components/button/button';
 
 function Home() {
-
+  console.log("Welcome, I suspected you would come here !")
+  console.log("Unfortunately there is nothing to see...")
   function lightDark() {
     var body = document.body
     var prt = document.querySelector(".presentation")
@@ -58,7 +59,7 @@ return (
                   }}
                 />
               </Link>
-              <Link to='https://LinkedIn.com/me'>
+              <Link to='https://www.linkedin.com/in/kilian-coutouzis-b21288295/'>
                 <Button 
                   props={{
                     src: require("../img/logo/LinkedIn.webp"),
@@ -122,7 +123,7 @@ return (
           <p>Socials</p>
           <ul>
             <li>
-              <a href="https://LinkedIn.com/me">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/kilian-coutouzis-b21288295/">LinkedIn</a>
               </li>
               <li>
                 <a href="https://github.com/epouvaantail">GitHub</a>
