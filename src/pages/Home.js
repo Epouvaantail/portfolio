@@ -48,8 +48,8 @@ return (
           <div className="firstPart">
             <div className="text">
               <p onClick={lightDark}>Welcome</p>
-              <h1 itemprop="givenName familyName">Kilian Coutouzis</h1>
-              <h2 itemprop="jobTitle">Developer Web - FrontEnd</h2>
+              <h1 itemProp="givenName familyName">Kilian Coutouzis</h1>
+              <h2 itemProp="jobTitle">Developer Web - FrontEnd</h2>
               <p>FullStack in progress...</p>
             </div>
             <div className="button">
@@ -121,7 +121,7 @@ return (
         </div>
         <div className="contact">
           <p>Contact</p>
-          <h4 itemprop="email">coutouzis.kilian@gmail.com</h4>
+          <h4 itemProp="email">coutouzis.kilian@gmail.com</h4>
           <p>Socials</p>
           <ul>
             <li>
