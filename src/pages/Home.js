@@ -5,8 +5,10 @@ import Clock from '../components/clock/clock';
 import Button from '../components/button/button';
 
 function Home() {
+
   console.log("Welcome, I suspected you would come here !")
   console.log("Unfortunately there is nothing to see...")
+
   function lightDark() {
     var body = document.body
     var prt = document.querySelector(".presentation")
