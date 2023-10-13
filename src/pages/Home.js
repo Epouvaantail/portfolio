@@ -163,11 +163,11 @@ return (
               </div>
               <div className='debug'>
                   <h4>Debug</h4>
-                  <p>Search engine optimization, improvement</p>
+                  <p>Finding and resolving bugs in websites and web applications</p>
               </div>
               <div className='seo'>
                   <h4>SEO</h4>
-                  <p>Finding and resolving bugs in websites and web applications</p>
+                  <p>Search engine optimization, improvement</p>
               </div>
             </section>
         </div>
