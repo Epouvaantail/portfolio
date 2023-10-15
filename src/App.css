@@ -458,8 +458,9 @@ hr {
     margin-top: 23px;
     margin-bottom: 16px;
   }
-
-  .bottomPart {
-    gap: 0;
+  
+  .projects {
+    height: 225px;
   }
+
 }
