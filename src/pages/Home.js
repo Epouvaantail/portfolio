@@ -35,8 +35,7 @@ function Home() {
       btn[i].classList.toggle("light-btn")
     }
   }
-  // console.log(1);
-  // console.clear();
+  
 return (
     <div className="App">
       <div className="loader">
