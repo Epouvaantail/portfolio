@@ -97,6 +97,7 @@ return (
 						    <li>Redux</li>
 						    <li>NodeJS</li>
 						    <li>NextJS</li>
+                <li>Angular</li>
                 <li>PHP</li>
 					    </ul>
             </article>
