@@ -20,13 +20,13 @@ function clock() {
 
   return (
     <div className="clock">
-		<div className="wrap">
-		  <span className="heure"></span>
-		  <span className="minute"></span>
-		  <span className="seconde"></span>
-		  <span className="dot"></span>
-		</div>
-	</div>
+		  <div className="wrap">
+		    <span className="heure"></span>
+		    <span className="minute"></span>
+		    <span className="seconde"></span>
+		    <span className="dot"></span>
+		  </div>
+	  </div>
   );
 }
 
