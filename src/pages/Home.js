@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import '../App.css';
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom';
@@ -5,9 +6,6 @@ import Clock from '../components/clock/clock';
 import Button from '../components/button/button';
 
 function Home() {
-
-  console.log("Welcome, I suspected you would come here !")
-  console.log("Unfortunately there is nothing to see...")
 
   function lightDark() {
     var body = document.body
@@ -25,7 +23,6 @@ function Home() {
     prj.classList.toggle("projects-light")
     lgt.classList.toggle("languagesTools-light")
     crt.classList.toggle("copyright-light")
-
     
     for(var a=0; a < li.length; a++) {
       li[a].classList.toggle("li-light")
@@ -35,7 +32,36 @@ function Home() {
       btn[i].classList.toggle("light-btn")
     }
   }
-  
+
+  useEffect(() => {
+
+    var body = document.body
+    var prt = document.querySelector(".presentation")
+    var ctc = document.querySelector(".contact")
+    var prj = document.querySelector(".projects")
+    var lgt = document.querySelector(".languagesTools")
+    var crt = document.querySelector(".copyright")
+    var li = document.querySelectorAll("li")
+    var btn = document.querySelectorAll(".btn")
+
+		if (body.className === 'light-mode') {
+      body.classList.toggle("light-mode")
+      prt.classList.toggle("presentation-light")
+      ctc.classList.toggle("contact-light")
+      prj.classList.toggle("projects-light")
+      lgt.classList.toggle("languagesTools-light")
+      crt.classList.toggle("copyright-light")
+      
+      for(var a=0; a < li.length; a++) {
+        li[a].classList.toggle("li-light")
+      }
+
+      for(var i=0; i < btn.length; i++) {
+        btn[i].classList.toggle("light-btn")
+      }
+		}
+	})
+
 return (
     <div className="App">
       <div className="loader">
