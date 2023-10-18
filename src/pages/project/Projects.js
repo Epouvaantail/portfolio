@@ -26,12 +26,15 @@ function Projects() {
 			{data.map((p) => {
 				return (
 					<article key={p.id} className="project" id={p.id}>
-						<div className='topSection'>
-							<p>{p.description}</p>
+						<section className='topSection'>
+							<section className='topLeft'>
+								<h2>{p.title}</h2>
+								<p>{p.description}</p>
+							</section>
 	              			<img src={require( `../../img/${p.imageUrl}`)} alt={p.title}/>
-						</div>
+						</section>
 						<hr/>
-						<div className='bottomSection'>
+						<section className='bottomSection'>
 							<p>{p.languages}</p>
 							<div className='btnRight'>
 								<Link to={p.code}>
@@ -51,7 +54,7 @@ function Projects() {
 									/>
 								</Link>
 							</div>
-						</div>
+						</section>
 	            	</article>
 				)
 			})}
