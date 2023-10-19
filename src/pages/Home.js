@@ -197,7 +197,7 @@ return (
               </div>
               <div className='seo'>
                   <h4>SEO</h4>
-                  <p>Search engine optimization, improvement</p>
+                  <p>Search Engine Optimization, improvement</p>
               </div>
             </section>
         </div>
