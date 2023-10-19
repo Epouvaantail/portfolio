@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import './projects.css';
 import Clock from '../../components/clock/clock';
 import { NavLink } from 'react-router-dom';
@@ -6,7 +7,7 @@ import Button from '../../components/button/button'
 import { Link } from 'react-router-dom';
 
 function Projects() {
-	console.clear()
+	  
 	async function siteNone() {
 		for (let d in data) {
 			if (await data[d].site === null) {
@@ -16,6 +17,27 @@ function Projects() {
 		}
 	}
 	siteNone()
+	
+	useEffect(() => {
+		const clock = document.querySelector(".clock")
+		clock.style.display = "none"
+
+		var body = document.body
+		var pjt = document.querySelectorAll('.project')
+		var arrow = document.querySelector('.arrow')
+		var btn = document.querySelectorAll('.btn')
+		
+		if (body.className === 'light-mode') {
+			arrow.style.filter = ('invert(0%)')
+			for(var i=0; i < btn.length; i++) {
+				btn[i].classList.toggle("light-btn")
+			}
+			for(var j=0; j < pjt.length; j++) {
+				pjt[j].classList.toggle("project-light")
+			}
+		}
+	})
+
 	return (
 	    <div className="App">
 			<Clock />
