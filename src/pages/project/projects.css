@@ -116,6 +116,23 @@ button {
 	border-radius: 10px;
 }
 
+@media  screen and (max-width:800px) { 
+  
+  .topSection {
+    flex-direction: column-reverse;
+    width: 80%;
+    gap: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+  .topSection img {
+    height: 180px;
+    width: 98%;
+  }
+
+}
+
 @media screen and (max-width:500px) {
 
   .topSection {
