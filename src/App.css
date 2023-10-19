@@ -263,6 +263,7 @@ li:hover {
 .contact li {
   list-style-type: none;
   &:hover {
+    list-style-type: none;
   font-size: 13px;
   }
 }

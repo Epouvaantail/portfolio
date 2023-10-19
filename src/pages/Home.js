@@ -16,6 +16,7 @@ function Home() {
     var crt = document.querySelector(".copyright")
     var li = document.querySelectorAll("li")
     var btn = document.querySelectorAll(".btn")
+    var liC = document.querySelectorAll(".contact li")
 
     body.classList.toggle("light-mode")
     prt.classList.toggle("presentation-light")
@@ -30,6 +31,10 @@ function Home() {
 
     for(var i=0; i < btn.length; i++) {
       btn[i].classList.toggle("light-btn")
+    }
+
+    for(var p=0; a < liC.length; p++) {
+      liC[p].classList.toggle(".contact li")
     }
   }
 
