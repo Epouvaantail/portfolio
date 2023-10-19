@@ -74,7 +74,7 @@ return (
 		    <p id="k1">K</p>
 	    </div>
       <section className="container">
-        <div className="presentation">
+        <div className="presentation" role="presentation">
           <div className="firstPart">
             <div className="text">
               <p onClick={lightDark}>Welcome</p>
@@ -135,8 +135,7 @@ return (
             <article>
               <p>Tools</p>
               <ul>
-					      <li>Git</li>
-					      <li>Github</li>
+					      <li>Git/Github</li>
 					      <li>MongoDB</li>
 					      <li>Swagger</li>
 					      <li>Notion</li>
