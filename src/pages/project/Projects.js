@@ -37,7 +37,7 @@ function Projects() {
 			}
 		}
 	})
-
+	console.clear()
 	return (
 	    <div className="App">
 			<Clock />
