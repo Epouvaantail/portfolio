@@ -36,7 +36,21 @@ function Projects() {
 				pjt[j].classList.toggle("project-light")
 			}
 		}
+
+		var trad = document.querySelectorAll(".topLeft p")
+		trad.forEach(function(check){
+			check.addEventListener('click', checkIndex)
+		})
+		function checkIndex(event){
+			// console.log( Array.from(trad).indexOf(event.target) );
+			var position = Array.from(trad).indexOf(event.target);
+			var dat = data.map((p)=>p.traduction)
+			// console.log(dat[position])
+			trad[position].innerHTML = dat[position]
+	
+		}
 	})
+
 	console.clear()
 	return (
 	    <div className="App">

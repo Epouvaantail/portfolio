@@ -4,6 +4,7 @@
         "title": "Riding Cities",
         "imageUrl": "Riding-cities.webp",
         "description": "Update the Riding Cities Internet page: Creation of a new section, “The founding members”, with the names and photos of the creators of the association. Modification of the section including the button “Download the course schedule” to add a title and two buttons allowing you to download two different lesson schedules (one for children and one for adults).",
+        "traduction": "Actualiser la page Internet de Riding Cities de la façon suivante : Créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association, modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
         "code": "https://github.com/Epouvaantail/Projet_2",
         "site": "https://epouvaantail.github.io/Projet_2",
         "languages": "HTML5 CSS3"
@@ -13,6 +14,7 @@
         "title": "Booki",
         "imageUrl": "Booki.webp",
         "description": "The company wants to develop a website that allows users to find accommodation and activities in the city of their choice. Integrate the site interface with HTML and CSS code. Collaboration with the CTO and the UI designer.",
+        "traduction": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Intégrer l&lsquo;interface du site avec du code HTML et CSS. Collaboration avec la CTO et l’UI designer.",
         "code": "https://github.com/Epouvaantail/Projet_3",
         "site": "https://epouvaantail.github.io/Projet_3",
         "languages": "HTML5 CSS3 Responsive"
@@ -22,6 +24,7 @@
         "title": "OhMyFood",
         "imageUrl": "Ohmyfood.webp",
         "description": "The mission is to develop a “mobile first” site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose the menu for their meal so that the dishes are ready upon their arrival.",
+        "traduction": "La mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
         "code": "https://github.com/Epouvaantail/Projet_4",
         "site": "https://epouvaantail.github.io/Projet_4",
         "languages": "HTML5 CSS3 Sass Responsive Animations"
@@ -30,7 +33,8 @@
         "id": "printit",
         "title": "Print It",
         "imageUrl": "Printit.webp",
-        "description": "Amélioration d'un site statique (HTML CSS) d'une imprimerie en y ajoutant un carousel à défilement automatique et manuel.",
+        "description": "Improvement of a static site (HTML CSS) of a printing company by adding an automatic and manual scrolling carousel.",
+        "traduction": "Amélioration d&lsquo;un site statique (HTML CSS) d&lsquo;une imprimerie en y ajoutant un carousel à défilement automatique et manuel.",
         "code": "https://github.com/Epouvaantail/Projet_5",
         "site": "https://epouvaantail.github.io/Projet_5",
         "languages":"HTML5 CSS3 JavaScript"
@@ -40,6 +44,7 @@
         "title": "Portfolio Sophie Bluel",
         "imageUrl": "SophieBluel.webp",
         "description": "Creation of the presentation page of the architect's work (from the HTML provided), the login page of the site administrator (the client) (code to be created from scratch); and creation of the modal allowing new media to be uploaded (code to be created from scratch).",
+        "traduction": "Création de la page de présentation des travaux de l&lsquo;architecte (à partir du HTML fourni),  la page de connexion de l&lsquo;administrateur du site (le client) (code à créer de zéro);  et création de la modale permettant d&lsquo;uploader de nouveaux médias (code à créer from scratch).",
         "code": "https://github.com/Epouvaantail/Projet_6",
         "site": null,
         "languages": "HTML5 CSS3 JavaScript NodeJS"
@@ -49,6 +54,7 @@
         "title": "Kasa",
         "imageUrl": "Kasa.webp",
         "description": "Development of a real estate rental application in React, and React components, React Router routes, following Figma models (responsive).",
+        "traduction": "Développement d'une application de location immobilière en React, et composants React, les routes React Router, en suivant les maquettes Figma (responsives).",
         "code": "https://github.com/Epouvaantail/Projet_8",
         "site": null,
         "languages": "HTML5 CSS3 JavaScript JSON REACT JSX ReactRouter"
@@ -58,6 +64,7 @@
         "title": "Portfolio Nina Carducci",
         "imageUrl": "Nina-Carducci.webp",
         "description": "Overall optimization of the site both in terms of performance and SEO. Local SEO using Schema.org Metas for social media Site accessibility Local SEO Detailed optimization report",
+        "traduction": "Optimisation globale du site tant sur les performances que sur le SEO.  Référencement local en utilisant Schema.org Metas pour les réseaux sociaux Accessibilité du site Référencement local Rapport d’optimisation détaillé",
         "code": "https://github.com/Epouvaantail/Projet_9",
         "site": "https://epouvaantail.github.io/Projet_9",
         "languages": "HTML5 CSS3 JavaScript SEO Wave Schema.org Responsive Lighthouse"
@@ -67,6 +74,7 @@
         "title": "724 Events",
         "imageUrl": "724-events.webp",
         "description": "The website is functional, but a few bugs hinder proper use by visitors. Research and correction of bugs that impact the user experience, both visually and functionally. Which can also impact the SEO of the company's websites.",
+        "traduction": "Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. Recherche et correction des bugs qui impacts l&lsquo;experience utilisateur, tant sur le visuel que sur le fonctionnel. Qui peuvent également impacter le référencement du sites web de l&lsquo;entreprise.",
         "code": "https://github.com/Epouvaantail/Projet_10",
         "site": null,
         "languages": "HTML5 CSS3 JavaScript Wave"
@@ -76,6 +84,7 @@
         "title": "ArgentBank",
         "imageUrl": "Argent-bank.webp",
         "description": "Create the complete and responsive web application with React and use Redux to manage the state of the entire application. Features: User can visit home page; it can connect to the system; he can log out of the system; he can only see information relating to his own profile if he has successfully logged in; he cannot modify his first or last name, but he can modify his nickname.",
+        "traduction": "Créer l’application web complète et responsive avec React et utiliser Redux pour gérer le state de l&lsquo;ensemble de l&lsquo;application. Fonctionnalités: L&lsquo;utilisateur peut visiter la page d&lsquo;accueil, il peut se connecter au système, il peut se déconnecter du système, il ne peut voir les informations relatives à son propre profil uniquement s&lsquo;être connecté avec succès, il ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.",
         "code": "https://github.com/Epouvaantail/Projet_11",
         "site": null,
         "languages": "HTML5 CSS3 JavaScript NodeJS REACT JSX ReactRouter Redux MongoDB DevTools"
