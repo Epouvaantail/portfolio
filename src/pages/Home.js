@@ -164,7 +164,7 @@ function Home() {
             <p>Education</p>
             <ul>
               <li>
-                <h4>Formation - Intégrator Web</h4>
+                <h4>Formation - Intégrator Web (RNCP level 5)</h4>
                 <p>OpenClassrooms</p>
               </li>
               <li>
