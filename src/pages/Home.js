@@ -66,6 +66,7 @@ function Home() {
       }
 		}
 	})
+  console.clear()
   console.log('There is nothing to see here, but you should click on "welcome"')
   return (
       <div className="App">

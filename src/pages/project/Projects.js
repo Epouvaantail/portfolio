@@ -52,6 +52,7 @@ function Projects() {
 	})
 
 	console.clear()
+	console.log('And here you should click on on the description for a french traduction')
 	return (
 	    <div className="App">
 			<Clock />
