@@ -20,7 +20,7 @@ body, #root {
 }
 
 body {
-  background-color: rgb(23, 22, 24);
+  background-color: #252525;
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgb(23, 22, 24);
+  background-color: #252525;
   animation: loader .01s;
   animation-delay: 4s;
   animation-fill-mode: both;
