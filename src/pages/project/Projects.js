@@ -41,6 +41,7 @@ function Projects() {
 		trad.forEach(function(check){
 			check.addEventListener('click', checkIndex)
 		})
+		
 		function checkIndex(event){
 			// console.log( Array.from(trad).indexOf(event.target) );
 			var position = Array.from(trad).indexOf(event.target);
@@ -49,16 +50,36 @@ function Projects() {
 			trad[position].innerHTML = dat[position]
 	
 		}
+
+		var chevron = document.querySelector(".modal img")
+		var modal = document.querySelector(".modal p")
+		chevron.addEventListener('click' ,dissapear)
+
+		function dissapear() {
+			if (chevron.style.transform === "rotate(180deg)") {
+				chevron.style.transform = "rotate(0deg)"
+				modal.style.display = "none"
+			}
+			else {
+				chevron.style.transform = "rotate(180deg)"
+				modal.style.display = "inline"
+			}
+
+		}
 	})
 
 	console.clear()
-	console.log('And here you should click on on the description for a french traduction')
+
 	return (
 	    <div className="App">
 			<Clock />
 			<NavLink to='/'>
 				<img src={require('../../img/logo/arrow.webp')} alt='icon arrow' className='arrow'/>
 			</NavLink>
+			<section className="modal">
+				<p>For a French translation, click on the description !</p>
+				<img src={require("../../img/logo/chevron.webp")} alt="chevron"/>
+			</section>
 			<section id='projects'>
 			{data.map((p) => {
 				return (
