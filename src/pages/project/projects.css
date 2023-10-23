@@ -22,6 +22,19 @@
   border-radius: 0 5px 5px 0;
 }
 
+.modal-light {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(245, 245, 245, 0.781);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
 .modal p {
   margin: 5px;
 }

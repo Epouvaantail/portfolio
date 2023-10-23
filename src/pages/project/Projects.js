@@ -23,12 +23,17 @@ function Projects() {
 		clock.style.display = "none"
 
 		var body = document.body
+		var modal = document.querySelector(".modal")
+		var chevron = document.querySelector(".modal img")
+		var modalp = document.querySelector(".modal p")
 		var pjt = document.querySelectorAll('.project')
 		var arrow = document.querySelector('.arrow')
 		var btn = document.querySelectorAll('.btn')
 		
 		if (body.className === 'light-mode') {
 			arrow.style.filter = ('invert(0%)')
+			modal.classList.toggle("modal-light")
+			chevron.style.filter = ('invert(0)')
 			for(var i=0; i < btn.length; i++) {
 				btn[i].classList.toggle("light-btn")
 			}
@@ -41,7 +46,7 @@ function Projects() {
 		trad.forEach(function(check){
 			check.addEventListener('click', checkIndex)
 		})
-		
+
 		function checkIndex(event){
 			// console.log( Array.from(trad).indexOf(event.target) );
 			var position = Array.from(trad).indexOf(event.target);
@@ -51,18 +56,15 @@ function Projects() {
 	
 		}
 
-		var chevron = document.querySelector(".modal img")
-		var modal = document.querySelector(".modal p")
-		chevron.addEventListener('click' ,dissapear)
-
-		function dissapear() {
+		chevron.addEventListener('click' ,disapear)
+		function disapear() {
 			if (chevron.style.transform === "rotate(180deg)") {
 				chevron.style.transform = "rotate(0deg)"
-				modal.style.display = "none"
+				modalp.style.display = "none"
 			}
 			else {
 				chevron.style.transform = "rotate(180deg)"
-				modal.style.display = "inline"
+				modalp.style.display = "inline"
 			}
 
 		}
