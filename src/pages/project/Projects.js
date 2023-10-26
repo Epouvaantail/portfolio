@@ -50,9 +50,17 @@ function Projects() {
 		function checkIndex(event){
 			// console.log( Array.from(trad).indexOf(event.target) );
 			var position = Array.from(trad).indexOf(event.target);
-			var dat = data.map((p)=>p.traduction)
-			// console.log(dat[position])
-			trad[position].innerHTML = dat[position]
+			var datDesc = data.map((p) => p.description)
+			var datTrad = data.map((p) => p.traduction)
+			// console.log(datTrad[position])
+			if (trad[position].innerHTML === datDesc[position] ) {
+				trad[position].innerHTML = datTrad[position]
+			}
+			else if ( trad[position].innerHTML === datTrad[position] ) {
+				trad[position].innerHTML = datDesc[position]
+			}
+			// trad[position].innerHTML = datTrad[position]
+			// console.log(trad[position].innerHTML)
 	
 		}
 
