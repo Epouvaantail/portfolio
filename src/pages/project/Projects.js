@@ -59,9 +59,6 @@ function Projects() {
 			else if ( trad[position].innerHTML === datTrad[position] ) {
 				trad[position].innerHTML = datDesc[position]
 			}
-			// trad[position].innerHTML = datTrad[position]
-			// console.log(trad[position].innerHTML)
-	
 		}
 
 		chevron.addEventListener('click' ,disapear)
