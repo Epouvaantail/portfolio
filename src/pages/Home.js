@@ -167,8 +167,8 @@ function Home() {
             <p>Education</p>
             <ul>
               <li>
-                <h4>Formation Integrator Web (RNCP level 5 / Bac +2)</h4>
-                <p>OpenClassrooms</p>
+                <h4>Formation Integrator Web OpenClassrooms</h4>
+                <p>RNCP level 5 / Bac +2</p>
               </li>
               <li>
                 <h4>Baccalauréat général</h4>
