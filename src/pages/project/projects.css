@@ -108,6 +108,11 @@ hr {
   filter: contrast(0.8);
 	border-radius: 5px;
   margin: 30px 30px auto;
+  object-fit: cover;
+}
+
+.project p {
+  font-size: 20px;
 }
 
 .project button img {
