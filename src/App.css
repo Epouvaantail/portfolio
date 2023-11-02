@@ -210,13 +210,11 @@ li {
 
 li:hover {
   color: darkred;
-  font-size: 20px;
   list-style-type: disc;
 }
 
 .li-light:hover {
   color: white;
-  font-size: 20px;
   list-style-type: disc;
 }
 
