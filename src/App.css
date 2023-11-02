@@ -224,7 +224,7 @@ li:hover {
   border-radius: 10px; border: 1px solid rgb(42, 41, 41);
   grid-area: 3 / 1 / 5 / 2;
   transition: 0.5s;
-  font-size: 13px;
+  font-size: 16px;
   &:hover {
     border: 1px solid darkred;
   }
@@ -265,7 +265,7 @@ li:hover {
   list-style-type: none;
   &:hover {
     list-style-type: none;
-  font-size: 13px;
+    font-size: 16px;
   }
 }
 

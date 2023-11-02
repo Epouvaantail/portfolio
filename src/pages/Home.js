@@ -92,7 +92,7 @@ function Home() {
                     }}
                   />
                 </Link>
-                <Link to='https://www.linkedin.com/in/kilian-coutouzis-b21288295/'>
+                <Link to='https://www.linkedin.com/in/kilian-coutouzis/'>
                   <Button 
                     props={{
                       src: require("../img/logo/LinkedIn.webp"),
@@ -152,15 +152,6 @@ function Home() {
           <div className="contact">
             <p>Contact</p>
               <h4 itemProp="email">coutouzis.kilian@gmail.com</h4>
-            <p>Socials</p>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/kilian-coutouzis-b21288295/">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="https://github.com/epouvaantail">GitHub</a>
-                </li>
-            </ul>
             <p>Education</p>
             <ul>
               <li>
