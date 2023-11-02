@@ -6,11 +6,11 @@
 }
 
 html {
-  height: 100%;
+  height: auto;
 }
 
 body, #root {
-  height: 100%;
+  height: auto;
 }
 
 #root {
@@ -114,6 +114,7 @@ a {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin: 5px;
+  margin-top: 85px;
 }
 
 p {
@@ -400,6 +401,10 @@ hr {
   #CK {
     margin-top: 30%;
     margin-left: 70%;
+  }
+
+  .container {
+    margin-top: 5px;
   }
 
   .contact {
