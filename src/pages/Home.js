@@ -128,16 +128,15 @@ function Home() {
   						    <li>ReactRouter</li>
   						    <li>Redux</li>
   						    <li>NodeJS</li>
-  						    <li>NextJS</li>
                   <li>Angular</li>
                   <li>PHP</li>
+                  <li>MongoDB</li>
   					    </ul>
               </article>
               <article>
                 <p>Tools</p>
                 <ul>
   					      <li>Git/Github</li>
-  					      <li>MongoDB</li>
   					      <li>Swagger</li>
   					      <li>Notion</li>
   					      <li>Figma</li>
