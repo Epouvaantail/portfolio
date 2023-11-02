@@ -152,9 +152,7 @@ function Home() {
           </div>
           <div className="contact">
             <p>Contact</p>
-            <Link to='mailto:coutouzis.kilian@gmail.com'>
               <h4 itemProp="email">coutouzis.kilian@gmail.com</h4>
-            </Link>
             <p>Socials</p>
             <ul>
               <li>
