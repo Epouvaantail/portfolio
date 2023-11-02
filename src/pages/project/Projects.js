@@ -123,8 +123,8 @@ function Projects() {
 	            	</article>
 				)
 			})}
-			<p>More projects in progress...</p>
 			</section>
+			<p className="more">More projects in progress...</p>
 		</div>
 	  );
 	}
