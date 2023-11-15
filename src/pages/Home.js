@@ -127,7 +127,8 @@ function Home() {
   						    <li>React</li>
   						    <li>ReactRouter</li>
   						    <li>Redux</li>
-  						    <li>NodeJS</li>
+                  <li>NextJs</li>
+  						    <li>NodeJs</li>
                   <li>Angular</li>
                   <li>PHP</li>
                   <li>MongoDB</li>
