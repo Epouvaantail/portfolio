@@ -130,6 +130,7 @@ function Home() {
                   <li>NextJs</li>
   						    <li>NodeJs</li>
                   <li>Angular</li>
+                  <li>MongoDB</li>
                   <li>PHP</li>
   					    </ul>
               </article>
@@ -142,7 +143,6 @@ function Home() {
   					      <li>Figma</li>
   					      <li>Firebase</li>
   					      <li>Vercel</li>
-                  <li>MongoDBAtlas</li>
   					      <li>npm/pnpm</li>
   					      <li>Schema.org</li>
   					      <li>Wave</li>
