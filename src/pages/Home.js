@@ -122,13 +122,15 @@ function Home() {
   					      <li>HTML5</li>
   						    <li>CSS3</li>
   						    <li>Sass</li>
-  						    <li>JavaScript</li>
-  						    <li>TypeCsript</li>
+                  <li>Tailwind</li>
+  						    <li>Javascript</li>
+  						    <li>Typescript</li>
   						    <li>React</li>
   						    <li>ReactRouter</li>
   						    <li>Redux</li>
                   <li>NextJs</li>
                   <li>NodeJs</li>
+                  <li>ExpressJs</li>
                   <li>MongoDB</li>
   					    </ul>
               </article>
