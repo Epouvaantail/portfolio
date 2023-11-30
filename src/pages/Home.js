@@ -80,8 +80,8 @@ function Home() {
               <div className="text">
                 <p onClick={lightDark}>Welcome</p>
                 <h1 itemProp="givenName familyName">Kilian Coutouzis</h1>
-                <h2 itemProp="jobTitle">Developer Web - FrontEnd</h2>
-                <p>FullStack in progress...</p>
+                <h2 itemProp="jobTitle">Developer Web - Fullstack</h2>
+                <p>In progress...</p>
               </div>
               <div className="button">
                 <Link to='https://github.com/epouvaantail'>
@@ -128,10 +128,8 @@ function Home() {
   						    <li>ReactRouter</li>
   						    <li>Redux</li>
                   <li>NextJs</li>
-  						    <li>NodeJs</li>
-                  <li>Angular</li>
+                  <li>NodeJs</li>
                   <li>MongoDB</li>
-                  <li>PHP</li>
   					    </ul>
               </article>
               <article>
