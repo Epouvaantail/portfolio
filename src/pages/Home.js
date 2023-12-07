@@ -81,7 +81,6 @@ function Home() {
                 <p onClick={lightDark}>Welcome</p>
                 <h1 itemProp="givenName familyName">Kilian Coutouzis</h1>
                 <h2 itemProp="jobTitle">Developer Web - Fullstack</h2>
-                <p>In progress...</p>
               </div>
               <div className="button">
                 <Link to='https://github.com/epouvaantail'>
