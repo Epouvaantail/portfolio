@@ -179,7 +179,7 @@ function Home() {
               <hr/>
               <section className='bottomPart'>
                 <div className='frontend'>
-                  <h4>FrontEnd</h4>
+                  <h4>Development</h4>
                   <p>Website and web application development</p>
                 </div>
                 <div className='debug'>
