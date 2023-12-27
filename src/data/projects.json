@@ -80,6 +80,16 @@
         "languages": "HTML5 / CSS3 / JavaScript / Wave"
     },
     {
+        "id": "map",
+        "title": "Map",
+        "imageUrl": "Map.webp",
+        "description": "Create an Angular web application containing 2 pages and a menu allowing you to switch from one screen to another. The first page displays a map with 5 capitals of your choice, represented by markers. When clicking on a marker, a legend displays the name of the city and the population. It is possible to see your own position as provided by GoogleMaps. The second page allows you to display the list of capitals (country, city, population, lat, lng, etc...).",
+        "traduction": "Créer une application web Angular contenant 2 pages et un menu permettant de passer d’un écran à l’autre. La premiere page permet d’afficher une carte avec 5 capitales de votre choix, représentées par des markers. Lors du clic sur un marker, une légende affiche le nom de la ville et la population. Il est possible de voir sa propre position tel que le propose GoogleMaps. La seconde page permet d’afficher la liste des capitales (pays, ville, population, lat, lng, …).",
+        "code": "https://github.com/Epouvaantail/Map",
+        "site": null,
+        "languages": "Angular / JSON / Typescript / HTML5 / CSS3 / amcharts"
+    },
+    {
         "id": "argentbank",
         "title": "ArgentBank",
         "imageUrl": "Argent-bank.webp",
