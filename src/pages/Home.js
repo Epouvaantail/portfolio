@@ -137,6 +137,7 @@ function Home() {
                 <p>Tools</p>
                 <ul>
   					      <li>Git/Github</li>
+                  <li>Docker</li>
   					      <li>Swagger</li>
   					      <li>Notion</li>
   					      <li>Figma</li>
