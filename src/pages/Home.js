@@ -195,7 +195,7 @@ function Home() {
           </div>
           </NavLink>
           <div className="copyright">
-            <h3>© 2023 Kilian COUTOUZIS, All Right Reserved.</h3>
+            <h3>© 2024 Kilian COUTOUZIS, All Right Reserved.</h3>
           </div>
         </section>
       </div>
