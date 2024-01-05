@@ -21,7 +21,9 @@ body, #root {
 }
 
 body {
-  background-color: #252525;
+  background: rgb(37,37,37);
+  background: linear-gradient(342deg, rgba(37,37,37,1) 44%, rgba(245, 245, 245, 0.589) 44%, rgba(245, 245, 245, 0.545) 69%, rgba(37,37,37,1) 69%);
+  background-attachment: fixed;
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -30,7 +32,8 @@ body {
 }
 
 .light-mode {
-  background-color: whitesmoke;
+  background: rgb(255,255,255);
+  background: linear-gradient(342deg, whitesmoke 42%, rgba(37,37,37,1) 42%, rgba(37,37,37,1) 70%, whitesmoke 70%);
   color: black
 }
 
