@@ -21,8 +21,7 @@ body, #root {
 }
 
 body {
-  background: rgb(37,37,37);
-  background: linear-gradient(342deg, rgba(37,37,37,1) 44%, rgba(245, 245, 245, 0.589) 44%, rgba(245, 245, 245, 0.545) 69%, rgba(37,37,37,1) 69%);
+  background: linear-gradient(342deg,#252525 44%,hsl(0deg 82.68% 9.4%) 0,hsl(0deg 100% 28.74% / 94%) 69%,#252525 0);
   background-attachment: fixed;
   color: whitesmoke;
   display: flex;
@@ -32,8 +31,8 @@ body {
 }
 
 .light-mode {
-  background: rgb(255,255,255);
-  background: linear-gradient(342deg, whitesmoke 42%, rgba(37,37,37,1) 42%, rgba(37,37,37,1) 70%, whitesmoke 70%);
+  background: linear-gradient(342deg, #e6e2d4 42%, rgb(68 67 67) 42%, rgba(37,37,37,1) 70%, #e6e2d4 42%);
+  background-attachment: fixed;
   color: black
 }
 
@@ -254,6 +253,7 @@ li:hover {
   margin-top: 5px;
   margin-left: 10px;
   font-weight: 200;
+  filter: invert(100%);
 }
 
 .contact ul {
