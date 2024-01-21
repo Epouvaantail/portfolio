@@ -80,6 +80,16 @@
         "languages": "HTML5 / CSS3 / JavaScript / Wave"
     },
     {
+        "id": "caesarcipher",
+        "title": "Caesar Cipher",
+        "imageUrl": "CaesarCipher.png",
+        "description": "A little program that crypt and decrypt by using the Caesar cipher principle. In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code, or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.",
+        "traduction": "Un petit programme qui crypte et décrypte en utilisant le principe du code Caesar. En cryptographie, le chiffrement par décalage, aussi connu comme le chiffre de César ou le code de César (voir les différents noms), est une méthode de chiffrement très simple utilisée par Jules César dans ses correspondances secrètes (ce qui explique le nom « chiffre de César »).",
+        "code": "https://github.com/Epouvaantail/CodeCaesar",
+        "site": "https://epouvaantail.github.io/CodeCaesar/",
+        "languages": "HTML5 / CSS3 / Javascript"
+    },
+    {
         "id": "map",
         "title": "Map",
         "imageUrl": "Map.webp",
