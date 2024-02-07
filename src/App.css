@@ -120,7 +120,8 @@ a {
 }
 
 p {
-  color: rgb(77, 75, 75);
+  color: rgb(109, 105, 105);
+  font-size: 17px;
 }
 
 .presentation {
@@ -206,6 +207,10 @@ p {
   font-weight: 300;
 }
 
+ul {
+  height: 50%;
+}
+
 li {
   list-style-type: circle;
   transition: 0.5s;
@@ -219,6 +224,10 @@ li:hover {
 .li-light:hover {
   color: white;
   list-style-type: disc;
+}
+
+.sharp {
+  font-family:Cambria, Cochin, Georgia, Times;
 }
 
 .contact {
