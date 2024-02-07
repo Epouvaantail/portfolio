@@ -208,7 +208,7 @@ p {
 }
 
 ul {
-  height: 50%;
+
 }
 
 li {
@@ -386,7 +386,7 @@ hr {
   font-weight: 100;
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 1305px) {
 
   .presentation {
     grid-area: 1 / 1 / 3 / 4;
@@ -394,11 +394,11 @@ hr {
   }
 
   .languagesTools {
-    grid-area: 1 / 4 / 5 / 5;
+    grid-area: 1 / 4 / 6 / 5;
   }
 
   .contact{
-    grid-area: 3 / 1 / 5 / 2;
+    grid-area: 3 / 1 / 6 / 2;
   }
   
   .projects {
@@ -406,7 +406,8 @@ hr {
   }
 
   .copyright {
-    grid-area: 5 / 1 / 6 / 5;
+    grid-area: 5 / 2 / 5 / 4;
+    height: 118px;
   }
 
   #CK {
@@ -436,7 +437,7 @@ hr {
   }
 
   .contact{
-    grid-area: 4 / 1 / 6 / 2;
+    grid-area: 4 / 1 / 7 / 2;
   }
   
   .projects {
@@ -444,7 +445,7 @@ hr {
   }
 
   .copyright {
-    grid-area: 6 / 1 / 6 / 5;
+    grid-area: 6 / 2 / 6 / 5;
   }
 
 	.secondPart {
