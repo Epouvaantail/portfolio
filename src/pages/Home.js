@@ -125,11 +125,12 @@ function Home() {
   						    <li>Javascript</li>
   						    <li>Typescript</li>
   						    <li>React</li>
-  						    <li>ReactRouter</li>
   						    <li>Redux</li>
                   <li>NextJs</li>
                   <li>NodeJs</li>
                   <li>ExpressJs</li>
+                  <li>.NET</li>
+                  <li className="sharp">C# </li>
                   <li>MongoDB</li>
   					    </ul>
               </article>
@@ -155,6 +156,10 @@ function Home() {
               <h4 itemProp="email">coutouzis.kilian@gmail.com</h4>
             <p>Education</p>
             <ul>
+              <li>
+                <h4>Formation Conceptor Developer .Net Fullstack</h4>
+                <p>RNCP level 6 / Bac +3/4</p>
+              </li>
               <li>
                 <h4>Formation Developer Web OpenClassrooms</h4>
                 <p>RNCP level 5 / Bac +2</p>
