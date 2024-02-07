@@ -144,7 +144,6 @@ function Home() {
   					      <li>Figma</li>
   					      <li>Firebase</li>
   					      <li>Vercel</li>
-  					      <li>npm/pnpm</li>
   					      <li>Schema.org</li>
   					      <li>Wave</li>
   					      <li>GIMP</li>
@@ -161,7 +160,7 @@ function Home() {
                 <p>RNCP level 6 / Bac +3/4</p>
               </li>
               <li>
-                <h4>Formation Developer Web OpenClassrooms</h4>
+                <h4>Formation Developer Web</h4>
                 <p>RNCP level 5 / Bac +2</p>
               </li>
               <li>
