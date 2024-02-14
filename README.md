@@ -4,4 +4,4 @@ https://coutouziskilian.netlify.app/
 
 # Description
 
-Portfolio made with React
+<p>Here my portfolio as a web developer fullstack, made with React</p>
