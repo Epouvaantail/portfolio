@@ -33,7 +33,6 @@ body {
 .light-mode {
   background: linear-gradient(342deg, #e6e2d4 42%, rgb(68 67 67) 42%, rgba(37,37,37,1) 70%, #e6e2d4 42%);
   background-attachment: fixed;
-  color: black
 }
 
 .loader {
