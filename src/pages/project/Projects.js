@@ -7,7 +7,7 @@ import Button from '../../components/button/button'
 import { Link } from 'react-router-dom';
 
 function Projects() {
-	  
+
 	async function siteNone() {
 		for (let d in data) {
 			if (await data[d].site === null) {
@@ -17,7 +17,7 @@ function Projects() {
 		}
 	}
 	siteNone()
-	
+
 	useEffect(() => {
 		const clock = document.querySelector(".clock")
 		clock.style.display = "none"
@@ -29,7 +29,7 @@ function Projects() {
 		var pjt = document.querySelectorAll('.project')
 		var arrow = document.querySelector('.arrow')
 		var btn = document.querySelectorAll('.btn')
-		
+
 		if (body.className === 'light-mode') {
 			arrow.style.filter = ('invert(0%)')
 			modal.classList.toggle("modal-light")
