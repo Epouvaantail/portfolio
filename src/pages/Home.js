@@ -122,7 +122,6 @@ function Home() {
   						    <li>CSS3</li>
   						    <li>Sass</li>
                   <li>Tailwind</li>
-  						    <li>Javascript</li>
   						    <li>Typescript</li>
   						    <li>React</li>
   						    <li>Redux</li>
