@@ -67,7 +67,7 @@ function Home() {
 		}
 	})
   console.clear()
-  console.log('There is nothing to see here, but you should click on "welcome"')
+  console.log('There is nothing to see here')
   return (
       <div className="App">
         <div className="loader">
@@ -78,9 +78,9 @@ function Home() {
           <div className="presentation" role="presentation">
             <div className="firstPart">
               <div className="text">
-                <p onClick={lightDark}>Welcome</p>
+                <p>Welcome</p>
                 <h1 itemProp="givenName familyName">Kilian Coutouzis</h1>
-                <h2 itemProp="jobTitle">Developer Web - Fullstack</h2>
+                <h2 itemProp="jobTitle">Application Designer Developer</h2>
               </div>
               <div className="button">
                 <Link to='https://github.com/epouvaantail'>
@@ -156,7 +156,7 @@ function Home() {
             <ul>
               <li>
                 <h4>Formation Conceptor Developer .Net Fullstack</h4>
-                <p>RNCP level 6 / Bac +3/4</p>
+                <p>RNCP level 6 / Bac +4</p>
               </li>
               <li>
                 <h4>Formation Developer Web</h4>
@@ -198,7 +198,8 @@ function Home() {
           </div>
           </NavLink>
           <div className="copyright">
-            <h3>© 2024 Kilian COUTOUZIS, All Right Reserved.</h3>
+            <h3>© 2025 Kilian COUTOUZIS, All Right Reserved.</h3>
+            <button className="onOffBtn" onClick={lightDark}><img src={require('../img/logo/OnOFF.webp')} alt="on/off logo"/></button>
           </div>
         </section>
       </div>
